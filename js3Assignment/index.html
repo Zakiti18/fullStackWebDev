@@ -1,0 +1,49 @@
+<!--
+index.html
+Phillip Ball
+04/02/2021
+For the js-review-exercises assignment - JS 3
+-->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS for the error message -->
+    <link rel="stylesheet" href="styles/heeHawStyle.css">
+
+    <title>JS 3</title>
+</head>
+<body>
+    <!-- Form that has the user enter a number -->
+    <form action="#">
+        <fieldset>
+            <legend>Number of Steps to Hee Haw</legend>
+
+            <!-- Gets the user input -->
+            <div>
+                <label>Enter a number <input type="text" id="userNum"></label>
+
+                <span id="err">Positive integer is required</span>
+            </div> <!-- Input End -->
+
+            <!-- extra space for niceness and the button -->
+            <div>
+                <br>
+                <button type="submit" id="submitBtn">Submit your number</button>
+            </div> <!-- Button End -->
+
+            <!-- This is where the counting/heeHaw(ing) will go -->
+            <br>
+            <div id="heeHawText"></div>
+        </fieldset>
+    </form> <!-- End of user input form -->
+
+    <!-- My script -->
+    <script src="scripts/heeHaw.js"></script>
+</body>
+</html>

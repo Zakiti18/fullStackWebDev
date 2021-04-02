@@ -1,0 +1,21 @@
+/*
+heeHawStyle.css
+Phillip Ball
+04/02/2021
+For the js-review-exercises assignment - JS 3
+ */
+
+#err{
+    color: darkred;
+    display: none;
+}
+
+#submitBtn{
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
